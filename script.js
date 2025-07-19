@@ -16,7 +16,7 @@ function openGallery(type) {
   let count = type === 'images' ? 15 : 5;
   for (let i = 1; i <= count; i++) {
     const media = document.createElement(type === 'images' ? 'img' : 'video');
-    media.src = `src=image/${type}${i}.jpg`;
+    media.src = `${type}${i}.jpg`;
     if (type === 'video') media.controls = true;
     media.style.width = '90%';
     media.style.margin = '1em 0';
