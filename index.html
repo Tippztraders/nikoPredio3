@@ -7,30 +7,25 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <div class="top-bar">
-      <h1>Arroja Realtors</h1>
-      <p>"Helping You Find Your House"</p>
-    </div>
-
+  <header class="hero">
     <div class="hero-slider">
       <img src="slide1.jpg" alt="Slide 1" />
       <img src="slide2.jpg" alt="Slide 2" />
       <img src="slide3.jpg" alt="Slide 3" />
     </div>
-
     <div class="hero-overlay">
       <img src="logo.png" class="logo" alt="Logo" />
+      <h1>Arroja Realtors</h1>
+      <p>"Helping You Find Your House"</p>
       <h2>Edifício à Venda</h2>
-      <p>“Oportunidade de Investimento com Potencial de Valorização com investimentos em reformas e melhorias”</p>
+      <p class="subtag">“Oportunidade de Investimento com Potencial de Valorização com investimentos em reformas e melhorias”</p>
     </div>
   </header>
 
   <main>
     <section class="highlight"><strong>Preço Reduzido</strong></section>
-
-    <section id="descricao">
-      <img src="image1.jpg" alt="Descrição do Edifício" />
+    <section>
+      <img src="image1.jpg" alt="Interior 1" />
       <h2>Descrição do Edifício</h2>
       <ul class="bullet-points">
         <li>4 Andares espaçosos com estrutura sólida</li>
@@ -40,14 +35,14 @@
       </ul>
     </section>
 
-    <section id="condicao">
-      <img src="image2.jpg" alt="Imagem do Edifício" />
-      <img src="image3.jpg" alt="Imagem do Edifício" />
+    <section>
+      <img src="image2.jpg" alt="Interior 2" />
+      <img src="image3.jpg" alt="Interior 3" />
       <h2>Condição do Edifício</h2>
       <p>O edifício encontra-se em estado habitável, necessitando apenas de reformas leves em algumas áreas. Estrutura principal sólida e sem infiltrações visíveis.</p>
     </section>
 
-    <section id="localizacao">
+    <section>
       <img src="image4.jpg" alt="Mapa ou Fachada" />
       <h2>Localização do Edifício</h2>
       <p>Localizado numa zona estratégica em Luanda, com fácil acesso a vias principais, comércio e serviços.</p>
@@ -64,13 +59,13 @@
       </div>
     </section>
 
-    <section id="galeria">
+    <section>
       <h2>Galeria Completa</h2>
       <button onclick="openGallery('images')">Imagens</button>
       <button onclick="openGallery('videos')">Vídeos</button>
     </section>
 
-    <div id="gallery-viewer" style="display: none;">
+    <div id="gallery-viewer">
       <button onclick="closeGallery()">Fechar Visualização</button>
       <div id="gallery-content"></div>
     </div>
