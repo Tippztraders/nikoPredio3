@@ -4,30 +4,31 @@
   padding: 0;
 }
 
-/* Container to limit site width and center it */
+/* CONTAINER THAT LIMITS SITE WIDTH */
 .site-container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 1em;  /* Fixed typo here */
+  padding: 0 1em;
+  text-align: center; /* Ensures text inside site-container is centered */
 }
 
-/* Wrapper content */
+/* INNER WRAPPER - FULL WIDTH */
 .content-wrapper {
   width: 100%;
 }
 
+/* GENERAL TEXT & BACKGROUND */
 body {
   font-family: Arial, sans-serif;
   background: #f4f4f4;
   color: #222;
+  text-align: center;  /* Default center for all text in body */
 }
 
-/* Hero header */
 .hero {
   position: relative;
-  max-height: 500px;   /* Limit hero height */
-  height: auto;
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -44,18 +45,19 @@ body {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  opacity: 1;
+  opacity: 0.7; /* Slightly more visible background image */
   transition: opacity 1s ease-in-out;
 }
 
-/* Overlay with text and logo */
 .hero-overlay {
   position: relative;
   z-index: 2;
   color: white;
-  text-align: center;
   padding: 2em;
   background: rgba(0, 0, 0, 0.5);
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .hero-overlay h1 {
@@ -81,13 +83,17 @@ body {
 
 section {
   padding: 1.5em;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .highlight {
   background: yellow;
-  text-align: center;
   padding: 1em;
   font-weight: bold;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 img {
@@ -99,6 +105,7 @@ img {
 .bullet-points li {
   margin-left: 1.5em;
   padding: 0.4em 0;
+  text-align: left; /* Keep bullet points aligned left inside center wrapper */
 }
 
 .summary-boxes {
@@ -142,4 +149,5 @@ footer {
   flex-wrap: wrap;
   padding: 2em 1em;
   background: #e0f0ff;
+  text-align: center;
 }
