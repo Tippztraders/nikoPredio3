@@ -9,7 +9,12 @@
   width: 100%;
   max-width: 960px;             /* Limit width */  
   margin: 0 auto;               /* Center horizontally */
-  padding: 0 12px;
+  padding: 0 1me;
+}
+
+/* THIS IS ALSO TO CONTAIN THE SIZE OF THE HERO */
+.content-wrapper {
+  width: 100%;
 }
 
 body {
