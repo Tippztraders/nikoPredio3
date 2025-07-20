@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-/* THIS SUPPOSED TO CONTAIN THE SIZE OF THE WEBSITE FROM HEADER SITE TO FOOTER?? */
+/* THIS SUPPOSED TO CONTAIN THE SIZE OF THE WEBSITE FROM HEADER SITE TO FOOTER */
 .site-container {
   width: 100%;
   max-width: 960px;             /* Limit width */  
