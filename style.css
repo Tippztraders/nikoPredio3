@@ -9,7 +9,7 @@
   width: 100%;
   max-width: 960px;             /* Limit width */  
   margin: 0 auto;               /* Center horizontally */
-  padding: 0 1me;
+  padding: 0 1em;
 }
 
 /* THIS IS ALSO TO CONTAIN THE SIZE OF THE HERO */
@@ -23,7 +23,10 @@ body {
   color: #222;
 }
 
+/* THIS CONTROLS THE EIGHT OF HERO HEADER PICS */
 .hero {
+  max-height: 500px;  /* or a height that matches your design */
+  height: auto;
   position: relative;
   height: 100vh;
   overflow: hidden;
@@ -37,6 +40,7 @@ body {
   width: 100%;
 }
 
+/* THIS SHRINKS HERO IMAGES? */
 .hero-slider img {
   position: absolute;
   height: 100%;
