@@ -4,6 +4,13 @@
   padding: 0;
 }
 
+/* THIS SUPPOSED TO CONTAIN THE SIZE OF THE WEBSITE FROM HEADER SITE TO FOOTER?? */
+.site-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
 body {
   font-family: Arial, sans-serif;
   background: #f4f4f4;
