@@ -6,9 +6,9 @@
 
 /* THIS SUPPOSED TO CONTAIN THE SIZE OF THE WEBSITE FROM HEADER SITE TO FOOTER?? */
 .site-container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 1em;
+  max-width: 720px;             /* Limit width */
+  margin: 0 auto;               /* Center horizontally */
+  padding: 0 12px;
 }
 
 body {
