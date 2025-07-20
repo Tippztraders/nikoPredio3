@@ -1,3 +1,4 @@
+/*
 let currentSlide = 0;
 const slides = document.querySelectorAll('.hero-slider img');
 
@@ -7,6 +8,7 @@ setInterval(() => {
   });
   currentSlide = (currentSlide + 1) % slides.length;
 }, 6000);
+*/
 
 function openGallery(type) {
   const viewer = document.getElementById('gallery-viewer');
