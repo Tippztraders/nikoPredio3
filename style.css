@@ -4,15 +4,15 @@
   padding: 0;
 }
 
-/* THIS SUPPOSED TO CONTAIN THE SIZE OF THE WEBSITE FROM HEADER SITE TO FOOTER */
+/* Container to limit site width and center it */
 .site-container {
   width: 100%;
-  max-width: 960px;             /* Limit width */  
-  margin: 0 auto;               /* Center horizontally */
-  padding: 0 1em;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1em;  /* Fixed typo here */
 }
 
-/* THIS IS ALSO TO CONTAIN THE SIZE OF THE HERO */
+/* Wrapper content */
 .content-wrapper {
   width: 100%;
 }
@@ -23,12 +23,11 @@ body {
   color: #222;
 }
 
-/* THIS CONTROLS THE EIGHT OF HERO HEADER PICS */
+/* Hero header */
 .hero {
-  max-height: 500px;  /* or a height that matches your design */
-  height: auto;
   position: relative;
-  height: 100vh;
+  max-height: 500px;   /* Limit hero height */
+  height: auto;
   overflow: hidden;
 }
 
@@ -40,7 +39,6 @@ body {
   width: 100%;
 }
 
-/* THIS SHRINKS HERO IMAGES? */
 .hero-slider img {
   position: absolute;
   height: 100%;
@@ -50,6 +48,7 @@ body {
   transition: opacity 1s ease-in-out;
 }
 
+/* Overlay with text and logo */
 .hero-overlay {
   position: relative;
   z-index: 2;
