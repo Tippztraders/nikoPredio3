@@ -26,27 +26,29 @@ body {
   text-align: center;  /* Default center for all text in body */
 }
 
+/* Limit hero width to container size and center */
 .hero {
   position: relative;
-  height: 100vh;
+  max-width: 960px;      /* same as site-container */
+  margin: 0 auto;        /* center horizontally */
+  height: 400px;         /* fixed height, adjust as needed */
   overflow: hidden;
 }
 
 .hero-slider {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;    /* remove absolute */  
   height: 100%;
   width: 100%;
 }
 
+* Hero images fill hero-slider, keep aspect ratio */
 .hero-slider img {
-  position: absolute;
-  height: 100%;
   width: 100%;
+  height: 100%;
   object-fit: cover;
-  opacity: 0.7; /* Slightly more visible background image */
+  opacity: 0.7;          /* adjust for overlay visibility */
   transition: opacity 1s ease-in-out;
+  position: relative;    /* remove absolute */
 }
 
 .hero-overlay {
